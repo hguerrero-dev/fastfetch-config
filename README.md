@@ -5,23 +5,24 @@ Configuración profesional de [fastfetch](https://github.com/fastfetch-cli/fastf
 ## Vista previa
 
 ```
-╭──────────────────────────╮
-│  user                  hguerrero
-│ 󰋜 hname                 hguerrero-home
-│ 󰥔 uptime                2 hours, 40 mins
-│ 󰙲 distro                Ubuntu 26.04 LTS...
-│ 󰿠 kernel                7.0.0-15-generic
-│ 󱂬 wm                   gnome-shell
-│ 󰖲 desktop               GNOME 50.1
-│ 󱩾 term                  opencode
-│ 󰞷 shell                 /bin/bash 5.3.9
-│  cpu                   Intel i7-8700K (6C/12T) @ 4.70GHz
-│ 󰍛 gpu                   AMD Radeon RX 580 2048SP
-│ 󰋊 disk                  116.4GiB / 456.3GiB (26%)
-│ 󰑭 memory                7.0GiB / 30.3GiB (23%)
-╰──────────────────────────╯
-   colors                 ● ● ● ● ● ● ● ●
+user      hguerrero
+host      hguerrero-home
+uptime    2 hours, 40 mins
+distro    Ubuntu 26.04 LTS...
+kernel    7.0.0-15-generic
+wm        gnome-shell
+desktop   GNOME 50.1
+term      opencode
+shell     /bin/bash 5.3.9
+cpu       Intel i7-8700K (6C/12T) @ 4.70GHz
+gpu       AMD Radeon RX 580 2048SP
+disk      116.4GiB / 456.3GiB (26%)
+memory    7.0GiB / 30.3GiB (23%)
+
+● ● ● ● ● ● ● ●
 ```
+
+> En tu terminal se ve con bordes (╭──╮), iconos Nerd Font (, 󰋜…) y colores rainbow. Esta previsualización es simplificada para GitHub.
 
 ## Archivos
 
