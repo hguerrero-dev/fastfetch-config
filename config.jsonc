@@ -100,6 +100,25 @@
             "format": "{ipv4}"
         },
         {
+            "type": "packages",
+            "key": "│ 󰏖 packages",
+            "keyColor": "red",
+            "combined": true
+        },
+        {
+            "type": "terminalfont",
+            "key": "│ 󰛄 termfont",
+            "keyColor": "green",
+            "format": "{/name}{-}{/}{name}{?size} {size}{?}"
+        },
+        {
+            "type": "command",
+            "key": "│  git",
+            "keyColor": "yellow",
+            "text": "git config user.name 2>/dev/null || echo 'not configured'",
+            "format": "{result}"
+        },
+        {
             "type": "disk",
             "key": "│ 󰋊 disk",
             "keyColor": "blue",
