@@ -44,11 +44,17 @@ cd fastfetch-config
 ### 2. Instalar configuraciones
 
 ```bash
-mkdir -p ~/.config/fastfetch
-cp config.jsonc ~/.config/fastfetch/
-cp ~/.zshrc ~/.zshrc.bak
-cp .zshrc ~/
+chmod +x install.sh
+./install.sh
 ```
+
+Esto copia la config de fastfetch y configura tu git global si no lo tienes.
+
+> También incluye un `.zshrc` de referencia. Si quieres usarlo:
+> ```bash
+> cp ~/.zshrc ~/.zshrc.bak
+> cp .zshrc ~/
+> ```
 
 ### 3. Requisitos
 
