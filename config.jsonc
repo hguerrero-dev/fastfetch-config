@@ -94,6 +94,12 @@
             "format": "{name}"
         },
         {
+            "type": "localip",
+            "key": "│ 󰩟 ip",
+            "keyColor": "white",
+            "format": "{ipv4}"
+        },
+        {
             "type": "disk",
             "key": "│ 󰋊 disk",
             "keyColor": "blue",

@@ -18,6 +18,7 @@ cpu       Intel i7-8700K (6C/12T) @ 4.70GHz
 gpu       AMD Radeon RX 580 2048SP
 disk      116.4GiB / 456.3GiB (26%)
 memory    7.0GiB / 30.3GiB (23%)
+ip        192.168.0.15/24
 
 ● ● ● ● ● ● ● ●
 ```
