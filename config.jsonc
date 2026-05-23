@@ -119,6 +119,54 @@
             "format": "{result}"
         },
         {
+            "type": "publicip",
+            "key": "│  publicip",
+            "keyColor": "green",
+            "format": "{ip}",
+            "timeout": 3000
+        },
+        {
+            "type": "locale",
+            "key": "│  locale",
+            "keyColor": "blue",
+            "format": "{result}"
+        },
+        {
+            "type": "swap",
+            "key": "│ 󰓡 swap",
+            "keyColor": "magenta",
+            "format": "{used} / {total}"
+        },
+        {
+            "type": "display",
+            "key": "│ 󰍹 display",
+            "keyColor": "cyan",
+            "compactType": "original"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ 󰉼 wmtheme",
+            "keyColor": "white"
+        },
+        {
+            "type": "sound",
+            "key": "│  sound",
+            "keyColor": "red",
+            "format": "{name} ({volume-percentage})"
+        },
+        {
+            "type": "editor",
+            "key": "│  editor",
+            "keyColor": "green",
+            "format": "{exe-name}"
+        },
+        {
+            "type": "battery",
+            "key": "│  battery",
+            "keyColor": "yellow",
+            "format": "{capacity}% ({status})"
+        },
+        {
             "type": "disk",
             "key": "│ 󰋊 disk",
             "keyColor": "blue",
